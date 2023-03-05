@@ -1,0 +1,15 @@
+.logo,
+.logo__text {
+    display: flex;
+}
+
+.logo__text {
+    color: #274C5B;
+    font-size: 32px;
+    font-weight:bold;
+}
+
+.logo__text{
+   align-items: center;
+   padding-left: 10px;
+}

@@ -1,0 +1,43 @@
+.block8 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #EFF6F1;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.block8__card {
+    display: flex;
+    width: 460px;
+    height: 580px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.block8__cardButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 95px;
+    padding: 30px 79px 30px 79px;
+    color: #274C5B;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+
+}
+
+.block8__card--First {
+    background-image: url(../img/block8__backgraund.png);
+}
+
+.block8__card--Second{
+    background-image: url(../img/block8__backgraund2.png);
+}
+
+.block8__card--Third{
+    background-image: url(../img/block8__backgraund3.png);
+}

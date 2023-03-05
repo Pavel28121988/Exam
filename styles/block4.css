@@ -1,0 +1,102 @@
+.block4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 122px;
+}
+
+.block4__text {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.block4__textHeader {
+    display: flex;
+    font-size: 36px;
+    color: #7EB693;
+    font-family: 'Yellowtail', cursive;
+    justify-content: center;
+}
+
+.block4__textMain {
+    display: flex;
+    color: #274C5B;
+    font-size: 45px;
+    font-weight: 700;
+    justify-content: center;
+}
+
+.block4__card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.block4__box {
+    display: flex;
+    flex-direction: column;
+    width: 447px;
+    height: 590px;
+    background-color: #F9F8F8;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.block4__boxHeader {
+    width: 118px;
+    height: 37px;
+    border-radius: 10px;
+    background-color: #274C5B;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-top: 7px;
+    text-align: center;
+}
+
+.block4__boxInfo {
+    color: #274C5B;
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 45px;
+    padding-bottom: 30px;
+}
+
+.block4__boxFooter {
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 2px #D4D4D4;
+    padding-top: 30px;
+}
+
+.block4__boxFooterPrice {
+    display: flex;
+}
+
+.block4__boxFooterPriceCrossed {
+    color: #B8B8B8;
+    font-size: 17px;
+    text-decoration: line-through;
+    font-weight: 400;
+}
+
+.block4__boxFooterPriceBold {
+    color: #274C5B;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+@media(max-width:530px) {
+    .block4__box {
+        width: auto;
+        height: auto;
+    }
+
+    .block4__boxHeaderImg {
+        width: 100%;
+        height: auto;
+    }
+}

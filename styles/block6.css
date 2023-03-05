@@ -1,0 +1,137 @@
+.block6 {
+    display: flex;
+    flex-direction: column;
+    background-color: #274C5B;
+    padding-top: 140px;
+    padding-left: 30px;
+    padding-bottom: 140px;
+    padding-right: 30px;
+}
+
+.block6__text {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.block6__textTitleHeader {
+    font-size: 36px;
+    font-family: 'Yellowtail', cursive;
+    color: #7EB693;
+    font-weight: 400;
+}
+
+.block6__textTitleBig {
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.block6__textButton {
+    width: 267px;
+    height: 82px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 11px 25px 33px;
+    background-color: #EFD372;
+    color: #274C5B;
+    font-size: 20px;
+    font-weight: 400;
+    align-items: center;
+    cursor: pointer;
+}
+
+.block6__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 44px;
+}
+
+.block6__box {
+    display: flex;
+    flex-direction: column;
+    width: 447px;
+    height: 590px;
+    background-color: #F9F8F8;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.block6__boxHeader {
+    width: 118px;
+    height: 37px;
+    border-radius: 10px;
+    background-color: #274C5B;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-top: 7px;
+    text-align: center;
+}
+
+.block6__boxInfo {
+    color: #274C5B;
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 45px;
+    padding-bottom: 30px;
+}
+
+.block6__boxFooter {
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 2px #D4D4D4;
+    padding-top: 30px;
+}
+
+.block6__boxFooterPrice {
+    display: flex;
+}
+
+.block6__boxFooterPriceCrossed {
+    color: #B8B8B8;
+    font-size: 17px;
+    text-decoration: line-through;
+    font-weight: 400;
+}
+
+.block6__boxFooterPriceBold {
+    color: #274C5B;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+
+@media (max-width:850px) {
+    .block6__textTitleBig {
+        font-size: 30px;
+    }
+
+    .block6__text {
+        flex-wrap: wrap;
+    }
+
+    .block6 {
+        padding-top: 40px;
+    }
+
+    .block6__cards{
+
+    }
+}
+
+@media (max-width:550px) {
+    .block6__box {
+        width: auto;
+        height: auto;
+    }
+
+    .block6__boxHeaderImg {
+        width: 100%;
+        height: auto;
+    }
+}

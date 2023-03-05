@@ -1,0 +1,123 @@
+.footer {
+    padding: 30px 30px 85px 30px;
+}
+
+.footer__text {
+    padding: 86px 130px 0px 130px;
+    display: flex;
+
+}
+
+.footer__textContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    width: 270px;
+    height: 369px;
+    border-right: solid 2px #EFF6F1;
+}
+
+.footer__textContactBox {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.footer__textContactHeader {
+    font-size: 30px;
+    color: #274C5B;
+    font-weight: 700;
+}
+
+.footer__textContactTitle {
+    font-size: 18px;
+    color: #525C60;
+    font-weight: 700;
+}
+
+.footer__textContactInfo {
+    font-size: 17px;
+    color: #525C60;
+    font-weight: 400;
+}
+
+.footer__textLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-bottom: 84px;
+}
+
+.footer__textLinkText {
+    font-size: 17px;
+    color: #525C60;
+    font-weight: 400;
+    text-align: center;
+}
+
+.footer__textLinkIkonsIn {
+    padding: 0px 10px;
+}
+
+.footer__textPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 67px;
+    padding-left: 10px;
+    border-left: solid 2px #EFF6F1;
+    width: 270px;
+    height: 369px;
+}
+
+.footer__textPageHeader {
+    font-size: 30px;
+    color: #274C5B;
+    font-weight: 700;
+}
+
+.footer__textPageText{
+    font-size: 18px;
+    color: #525C60;
+    font-weight: 400;
+}
+
+@media (max-width:950px) {
+    .footer__text {
+        padding: 40px;
+}
+}
+
+@media (max-width:750px){
+    .footer__textContact{
+        width: auto;
+        height: auto;
+        align-items: center;
+}
+
+   .footer__textPage{
+        width: auto;
+        height: auto;
+        align-items: center;
+   }
+
+   .footer__textLink{
+    order:  -1;
+    padding: 20px;
+   }
+
+   .footer__text{
+    flex-direction: column;
+    padding: 20px;
+   }
+
+
+   
+}

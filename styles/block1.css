@@ -1,0 +1,54 @@
+.block1,
+.block1__textHeader,
+.block1__textBold,
+.block1__textLink {
+    display: flex;
+}
+
+
+.block1 {
+    background-image: url(../img/Backgraund_block1.png);
+    max-width: 1440px;
+    margin: auto;
+}
+
+.block1__text {
+    padding-left: 30px;
+    padding-top: 220px;
+    padding-bottom: 250px;
+}
+
+.block1__textHeader {
+    color: #7EB693;
+    font-family: 'Yellowtail', cursive;
+    font-size: 36px;
+}
+
+.block1__textBold {
+    color: #274C5B;
+    font-size: 70px;
+    font-weight: 700;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.block1__textLink {
+    justify-content: space-between;
+    width: 219px;
+    height: 82px;
+    background-color: #EFD372;
+    color: #274C5B;
+    font-size: 19px;
+    border-radius: 15px;
+    padding: 25px 9px 25px 33px;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media(max-width:600px) {
+   .block1__textBold{
+    font-size: 35px;
+   }
+    
+}

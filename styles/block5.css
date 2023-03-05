@@ -1,0 +1,103 @@
+.block5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../img/Backgraund__block5.png);
+    padding: 130px 168px 150px 168px;
+    margin-top: 120px;
+    margin: auto;
+    max-width: 1440px;
+}
+
+.block5__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 95px;
+    border-bottom: 2px #E0E0E0 solid;
+}
+
+.block5__textHeader {
+    font-size: 36px;
+    font-family: 'Yellowtail', cursive;
+    color: #7EB693;
+    font-weight: 400;
+    margin: auto;
+}
+
+.block5__textBig {
+    font-size: 45px;
+    color: #274C5B;
+    font-weight: 700;
+    margin: auto;
+}
+
+.block5__textFace {
+    margin: auto;
+    padding-top: 60px;
+}
+
+.block5__textStars {
+    margin: auto;
+    padding-top: 18px;
+}
+
+.block5__textInfo {
+    font-size: 18px;
+    font-weight: 400;
+    color: #525C60;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.block5__textName {
+    font-size: 26px;
+    font-weight: 700;
+    color: #274C5B;
+    margin: auto;
+    padding-top: 23px;
+}
+
+.block5__textConsumer {
+    font-size: 14px;
+    font-weight: 400;
+    color: #525C60;
+    margin: auto;
+}
+
+.block5__circles{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+
+.block5__circlesCircle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: #F1F1F1;
+    border: 5px solid #7EB693;
+    margin: auto;
+}
+
+.block5__circlesCircleNumber{
+    font-size: 42px;
+    color: #274C5B;
+    font-weight: 700;
+}
+
+.block5__circlesCircleText{
+    font-size: 18px;
+    color: #274C5B;
+    font-weight: 700;
+}
+
+@media(max-width:650px) {
+    .block5{
+        padding: 0px;
+    }
+}
